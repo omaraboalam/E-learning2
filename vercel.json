@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "functions": {},
+  "env": {
+    "CI": "false"
+  },
+  "build": {
+    "env": {
+      "CI": "false"
+    }
+  }
+}
