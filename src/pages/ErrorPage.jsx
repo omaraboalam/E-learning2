@@ -1,6 +1,6 @@
 import { Home, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import MainButton from "../components/mainButton";
+import MainButton from "./components/mainButton";
 
 export default function ErrorPage() {
   const handleGoBack = () => {
